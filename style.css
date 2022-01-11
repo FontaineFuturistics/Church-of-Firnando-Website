@@ -1,0 +1,657 @@
+* {
+    /* Remove all Margins */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Set up Font */
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+
+    /* Move All Items to One Line */
+    display: flex;
+
+    align-items: center;
+
+    height: 12vh;
+
+    background: white;
+
+}
+
+.logoContainer {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content:space-around;
+
+}
+
+.linkBar {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    flex: 2;
+
+}
+
+.linkList {
+
+    flex: 6;
+
+    display: flex;
+
+    list-style: none;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+.currentPageLink, .otherPageLink {
+
+    height: 50px;
+
+    width: 140px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    font-weight: 500;
+
+}
+
+.navBarSpacer {
+
+    flex: 1;
+
+}
+
+/* Text of Current Page */
+.cPage {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.oPage {
+
+    color: black;
+
+    text-decoration: none;
+
+}
+
+.currentPageLink {
+
+    background: black;
+
+    outline: 2px solid black;
+
+}
+
+.otherPageLink {
+
+    background: white;
+
+    outline: 2px solid black;
+
+}
+
+footer {
+
+    height: 10vh;
+
+    background: white;
+
+}
+
+.logo {
+
+    height: 10vh;
+
+    align-items: center;
+
+    display: flex;
+
+}
+
+.insta, .twitter, .yt {
+
+    height: 50px;
+
+}
+
+.footerTop {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 10vh;
+
+}
+
+.snContainer {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.siteName {
+
+    font-weight: 700;
+
+    font-size: 20px;
+
+}
+
+.easterEgg {
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.socialLinks {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.emailLink {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+/* Home Page Settings */
+.mainBody {
+
+    background-image: url(./img/DuckCongregation2.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+.indexBodySpacer {
+
+    height: 35vh;
+
+}
+
+.fcBox {
+
+    background: white;
+
+    height: 15vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.firstCommandment {
+
+    text-align: center;
+
+    font-weight: 700;
+
+    font-size: 40px;
+
+}
+
+.fcSubtext {
+
+    text-align: center;
+
+    font-weight: 500;
+
+}
+
+.smalltext {
+
+    font-size: 12px;
+
+    font-weight: 500;
+
+}
+
+.descBox {
+
+    background: white;
+
+    height: 15vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.descBox2 {
+
+    width: 110vh;
+
+}
+
+.desc {
+
+    text-align: center;
+
+    font-weight: 500;
+
+}
+
+.discBox {
+
+    background-color: #5d64ef;
+
+    height: 15vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+}
+
+.discHeader {
+
+    color: white;
+
+}
+
+.discButton {
+
+    background: white;
+
+    height: 50px;
+
+    width: 140px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+}
+
+.discText {
+
+    font-weight: 700;
+
+    font-size: 30px;
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+/* About Us Formatting */
+.backgroundStatic {
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    position: fixed;
+
+    z-index: -1;
+
+    width: 100%;
+
+}
+
+.aboutUsBackground {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.purposeBox, .creationBox, .commandmentsBox {
+
+    background: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.purposeBox {
+
+    height: 20vh;
+
+}
+
+.creationBox {
+
+    height: 15vh;
+
+}
+
+.commandmentsBox {
+
+    height: 95vh;
+
+}
+
+.purposeBox2, .commandmentsBox2, .creationBox2 {
+
+    width: 110vh;
+
+}
+
+.purposeHeader, .purposeText, .creationHeader, .creationText, .commandmentsHeader, .commandment {
+
+    text-align: center;
+
+}
+
+.commandmentsHeader {
+
+    font-size: 35px;
+
+}
+
+.purposeText, .creationText, .commandment {
+
+    font-weight: 500;
+
+}
+
+.commandment {
+
+    font-size: 30px;
+
+}
+
+.commandmentLI {
+
+    list-style: none;
+
+}
+
+/* Our Leaders Formatting */
+
+.lesserSpacer {
+
+    height: 15vh;
+
+}
+
+.leadersTitleBox {
+
+    align-items: center;
+
+    font-size: 48px;
+
+}
+
+.leadersTitleBox2 {
+}
+
+.leadersBackground {
+
+    height: 100%;
+
+    width: 100%;
+
+}
+
+.councilBiosBox {
+
+    background: white;
+
+    align-items: center;
+
+}
+
+.councilBiosBox2 {
+
+}
+
+.councilBiosRow {
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.councilBiosRowSpacer {
+
+    height: 5vh;
+
+}
+
+.councilBio {
+
+    text-align: center;
+
+}
+
+.councilImage, .councilTitle, .councilGender, .councilBioText, .councilBio {
+
+    width: 30vh;
+
+}
+
+.councilImage {
+
+    border-radius: 50%;
+
+}
+
+.councilGender {
+
+    font-weight: 500;
+
+}
+
+.councilBioText {
+
+    font-weight: 500;
+
+}
+
+.highPriestBioBox {
+
+    display: flex;
+
+    background: white;
+
+}
+
+.highPriestBioHalf {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+    width: 100vh;
+
+}
+
+.highPriestImage {
+
+    width: 100vh;
+
+}
+
+.highPriestBioTextBox {
+
+    width: 70vh;
+
+}
+
+.highPriestBioGender {
+
+    font-weight: 500;
+
+}
+
+/* Firnandonomicon Formatting */
+
+.bookIntroBox {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+}
+
+.bookIntroBox2 {
+
+    text-align: center;
+
+    width: 75vh;
+
+}
+
+.bookBodySpacer {
+
+    height: 30vh;
+
+}
+
+.bookIntroText {
+
+    font-weight: 500;
+
+}
+
+.bookLink {
+
+    color: black;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+/* Gallery Formatting */
+
+.galBox {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+}
+
+.galBoxInner {
+
+    display: flex;
+
+    align-items: center;
+
+    width: 85vh;
+
+    justify-content: center;
+
+}
+
+.mSpace {
+
+    height: 10vh;
+
+}
+
+.hSpace {
+
+    width: 10vh;
+
+}
+
+.galRow {
+
+    display: flex;
+
+}
+
+.galInd {
+
+    justify-content: space-around;
+
+    width: 55vh;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.galInd2 {
+
+    background: white;
+
+}
+
+.artImg {
+
+    width: 45vh;
+
+}
+
+.artTitleBox {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+}
